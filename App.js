@@ -9,7 +9,7 @@ import Tabs from "./navigation/Tabs";
 import Root from "./navigation/Root";
 import { useColorScheme } from "react-native";
 import { ThemeProvider } from "styled-components";
-import { darkTheme, lightTheme } from "./seyled";
+import { darkTheme, lightTheme } from "./styled";
 
 export default function App() {
   const [assets] = useAssets([require("./test.jpeg")]);
